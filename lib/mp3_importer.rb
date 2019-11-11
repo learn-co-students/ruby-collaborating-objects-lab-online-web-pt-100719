@@ -17,6 +17,3 @@ class MP3Importer
     end
 
 end
-
-test_mp3 = MP3Importer.new("./spec/fixtures/mp3s")
-puts test_mp3.import
