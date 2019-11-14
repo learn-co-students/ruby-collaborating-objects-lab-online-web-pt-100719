@@ -1,4 +1,4 @@
-describe 'Artist' do
+describe 'Artist' do =
 
   before(:example) {
     Artist.class_variable_set(:@@all, [])
