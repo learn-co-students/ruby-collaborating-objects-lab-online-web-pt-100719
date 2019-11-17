@@ -13,9 +13,9 @@ class Artist
     @@all
   end
 
-  def self.create(name)
-    artist = self.new(name)
-    artist.name = name
+  def self.create(name) #=> Artist.create("Drake")
+    artist = self.new(name) #=> artist = Artist.new("Drake")
+    artist.name = name #=> artist.name = "Drake"
     artist
   end
 
@@ -39,7 +39,7 @@ class Artist
     @@all << self
   end
 
-  def songs
+  def self.songs
     @songs
   end
 
