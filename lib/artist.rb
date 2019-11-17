@@ -13,9 +13,9 @@ class Artist
     @@all
   end
 
-  def self.create(name) #=> Artist.create("Drake")
-    artist = self.new(name) #=> artist = Artist.new("Drake")
-    artist.name = name #=> artist.name = "Drake"
+  def self.create(name)
+    artist = self.new(name)
+    artist.name = name
     artist
   end
 
